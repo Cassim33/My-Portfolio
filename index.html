@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f4f4f9, #e9f0f7);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #4a90e2, #357ABD);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      border-bottom: 5px solid #2c5fa8;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+    }
+    header p {
+      margin: 5px 0;
+    }
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+    }
+    h2 {
+      color: #4a90e2;
+      border-left: 5px solid #4a90e2;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      background: #fdfdfd;
+      margin: 10px 0;
+      padding: 15px 18px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+    ul li:hover {
+      background: #f0f8ff;
+      transform: translateX(5px);
+    }
+    footer {
+      background: #f9f9f9;
+      color: #333;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      border-top: 4px solid #4a90e2;
+    }
+    footer p {
+      margin: 8px 0;
+    }
+    footer a {
+      color: #357ABD;
+      margin: 0 10px;
+      text-decoration: none;
+      transition: color 0.3s, transform 0.3s;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    footer a:hover {
+      color: #e67e22;
+      transform: scale(1.1);
+    }
+    .icon {
+      width: 18px;
+      height: 18px;
+      vertical-align: middle;
+    }
+    @media (max-width: 768px) {
+      header h1 { font-size: 2rem; }
+      section { padding: 20px; margin: 20px; }
+      h2 { font-size: 1.3rem; }
+    }
+    @media (max-width: 480px) {
+      header { padding: 25px 15px; }
+      header h1 { font-size: 1.6rem; }
+      section { margin: 15px; padding: 15px; }
+      h2 { font-size: 1.1rem; }
+    }
+    .project-links a {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 0.9rem;
+      color: #4a90e2;
+      text-decoration: underline;
+    }
+    .project-links a:hover {
+      color: #e67e22;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kasimu Muhammad</h1>
+    <p>Generative AI & Frontend Beginner</p>
+    <p>📧 mkasimu@fellows.ahyel.org | 🌐 github.com/cassim33 | 💼 
+      <a href="https://www.linkedin.com/in/kasimu-muhammad-623442b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="color:#fff; text-decoration:underline;">LinkedIn</a>
+    </p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am a student in Generative AI and Frontend Development,at Ahyel Tech Hub 
+      I enjoy building user-friendly applications and experimenting with AI tools.
+      I am eager to keep learning and contributing to innovative projects.
+      I'm committed to helping my local community embrace digital skills as we are left-behind.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Frontend Development: HTML, CSS, JavaScript (beginner level)</li>
+      <li>Generative AI: Prompt engineering, text & image generation basics</li>
+      <li>Basic Coding: Git & GitHub,Problem-Solving, UI/UX basics </li>
+      <li>Microsoft,Micro:bit, Scratch Programming</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Courses Completed</h2>
+    <ul>
+      <li>Introduction to Frontend Development (Coursera / freeCodeCamp)</li>
+      <li>Basics of Generative AI (Google AI, DeepLearning AI, Microsoft Generative AI)</li>
+      <li>Git & GitHub for Beginners</li>
+      <li>Creative Coding with Scratch, Micro:bit, and Barefoot Computing</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects Completed</h2>
+    <ul>
+      <li><strong>Personal Portfolio Website:</strong> Built a simple one-page site to showcase my skills. <span class="project-links"><a href="https://github.com/cassim33/portfolio" target="_blank">GitHub</a></span></li>
+      <li><strong>Basic Calculator App:</strong> Created using HTML, CSS, and JavaScript. <span class="project-links"><a href="https://github.com/cassim33/calculator" target="_blank">GitHub</a></span></li>
+      <li><strong>AI Prompt Showcase:</strong> Built a small demo to experiment with text generation prompts. <span class="project-links"><a href="https://github.com/cassim33/ai-prompt-demo" target="_blank">GitHub</a></span></li>
+      <li><strong>Weather App:</strong> Developed a basic weather forecast app using HTML, CSS, and a public API. <span class="project-links"><a href="https://github.com/cassim33/weather-app" target="_blank">GitHub</a></span></li>
+      <li><strong>Task Manager App:</strong> A simple to-do list application with local storage support. <span class="project-links"><a href="https://github.com/cassim33/task-manager" target="_blank">GitHub</a></span></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Kasimu Muhammad | Designed @ AHYEL TECH HUB ❤️</p>
+    <p>
+      <a href="mailto:mkasimu@fellows.ahyel.org">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/maildotru.svg" alt="Email" class="icon"> Email
+      </a> |
+      <a href="https://github.com/cassim33" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" class="icon"> GitHub
+      </a> |
+      <a href="https://www.linkedin.com/in/kasimu-muhammad-623442b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" class="icon"> LinkedIn
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
